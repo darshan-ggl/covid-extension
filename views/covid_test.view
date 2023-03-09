@@ -1,6 +1,6 @@
 view: covid_test {
   derived_table: {
-    sql: SELECT date, country_name, new_confirmed, new_deceased FROM `qwiklabs-gcp-00-b974ab526a19.sample_public_dataset.covid19_open_data`
+    sql: SELECT date, country_name, new_confirmed, new_deceased FROM `cloud-training-demos.sample_public_dataset.covid19_open_data`
       ;;
   }
 
